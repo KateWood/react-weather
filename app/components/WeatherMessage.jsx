@@ -19,7 +19,7 @@ var React = require('react')
 // Object destructuring in the fucking args, WHAAAAAAAATTTT???!!!
 var WeatherMessage = ({location, temp}) => {
   return (
-    <p>It's {temp} in {location}.</p>
+    <h3 className="text-center">It's {temp} in {location}.</h3>
   )
 }
 
